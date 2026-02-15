@@ -6,8 +6,7 @@ def main():
         new_line = input("Enter new line of content: ")
         if new_line == "stop":
             break
-        else:
-            file.write(new_line + "\n")
+        file.write(new_line + "\n")
     file.close()
 
 if __name__ == "__main__":
